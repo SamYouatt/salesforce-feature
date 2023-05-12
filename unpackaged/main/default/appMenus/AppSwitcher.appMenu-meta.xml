@@ -57,7 +57,19 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
+        <name>standard__LightningBolt</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>standard__LightningInstrumentation</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>CPQIntegrationUserApp</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>SBQQ__QuoteQuickly</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
@@ -69,19 +81,11 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__QueueManagement</name>
+        <name>standard__Commerce</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
         <name>standard__DataManager</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningScheduler</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningBolt</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>

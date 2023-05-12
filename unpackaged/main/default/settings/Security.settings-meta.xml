@@ -55,7 +55,7 @@
         <identityConfirmationOnTwoFactorRegistrationEnabled>true</identityConfirmationOnTwoFactorRegistrationEnabled>
         <lockSessionsToDomain>true</lockSessionsToDomain>
         <lockSessionsToIp>false</lockSessionsToIp>
-        <lockerServiceCSP>true</lockerServiceCSP>
+        <lockerServiceCSP>false</lockerServiceCSP>
         <lockerServiceNext>false</lockerServiceNext>
         <lockerServiceNextControl>false</lockerServiceNextControl>
         <redirectBlockModeEnabled>false</redirectBlockModeEnabled>

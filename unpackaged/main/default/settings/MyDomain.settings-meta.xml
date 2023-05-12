@@ -5,7 +5,7 @@
     <domainPartition>none</domainPartition>
     <enableNativeBrowserForAuthOnAndroid>false</enableNativeBrowserForAuthOnAndroid>
     <enableNativeBrowserForAuthOnIos>false</enableNativeBrowserForAuthOnIos>
-    <myDomainName>gearset701-dev-ed</myDomainName>
+    <myDomainName>gearsetcom39-dev-ed</myDomainName>
     <myDomainSuffix>MySalesforce</myDomainSuffix>
     <redirectForceComSiteUrls>true</redirectForceComSiteUrls>
     <redirectPriorMyDomain>true</redirectPriorMyDomain>

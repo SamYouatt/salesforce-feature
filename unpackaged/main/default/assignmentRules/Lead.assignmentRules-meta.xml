@@ -4,7 +4,7 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>sam.youatt+eu+staging@gearset.com</assignedTo>
+            <assignedTo>sam.youatt+cpq+trailhead@gearset.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
@@ -13,7 +13,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>sam.youatt+eu+staging@gearset.com</assignedTo>
+            <assignedTo>sam.youatt+cpq+trailhead@gearset.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>

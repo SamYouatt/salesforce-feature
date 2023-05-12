@@ -28,10 +28,6 @@
                 <behavior>Required</behavior>
                 <field>Status</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>IsAutoPayEnabled</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
@@ -128,7 +124,7 @@
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
-        <layoutColumns/>
+        <layoutColumns />
         <style>CustomLinks</style>
     </layoutSections>
     <showEmailCheckbox>false</showEmailCheckbox>

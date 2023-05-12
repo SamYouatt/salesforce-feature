@@ -19,6 +19,12 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>AAA_Object_That_Won_t_Be_On_Other_Org__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Account</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
@@ -26,12 +32,6 @@
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Activity</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>AppointmentInvitation</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
@@ -205,12 +205,6 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>Coupon</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>CreditMemo</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
@@ -253,12 +247,6 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>EngagementChannelWorkType</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>EnhancedLetterhead</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
@@ -267,12 +255,6 @@
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Entitlement</name>
             <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>Favourite_Colour__c</name>
-            <resultsPerPageCount>0</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
@@ -290,6 +272,12 @@
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Individual</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>IndustryPrice__c</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
@@ -325,18 +313,6 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>MessagingEndUser</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>MessagingSession</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Note</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
@@ -350,6 +326,12 @@
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>Order</name>
+            <resultsPerPageCount>25</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>OutletLocale__c</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>
@@ -379,24 +361,6 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>Promotion</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>PromotionMarketSegment</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>PromotionSegment</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>QuickText</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
@@ -412,16 +376,89 @@
             <name>Report</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>ServiceContract</name>
-            <resultsPerPageCount>25</resultsPerPageCount>
-        </searchSettingsByObject>
-        <searchSettingsByObject>
-            <enhancedLookupEnabled>false</enhancedLookupEnabled>
-            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
-            <name>ShiftEngagementChannel</name>
             <resultsPerPageCount>25</resultsPerPageCount>
         </searchSettingsByObject>
         <searchSettingsByObject>

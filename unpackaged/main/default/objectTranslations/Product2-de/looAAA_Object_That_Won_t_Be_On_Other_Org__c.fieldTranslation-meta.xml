@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- looAAA Object That Won&apos;t Be On Other Org --></label>
+        <name>looAAA_Object_That_Won_t_Be_On_Other_Org__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </CustomFieldTranslation>

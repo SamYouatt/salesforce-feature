@@ -193,11 +193,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.OperatingHoursId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Account.Ownership</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -283,11 +278,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.aaa_remove_this_from_prod__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>AppointmentInvitation.AppointmentTopicId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -358,7 +348,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ConsumptionRate.GearsetExternalId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ConsumptionSchedule.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ConsumptionSchedule.GearsetExternalId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -563,11 +563,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Entitlement.SvcApptBookingWindowsId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Entitlement.Type</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -604,6 +599,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Idea.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>IndustryPrice__c.GearsetExternalId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -699,6 +699,31 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Order.Type</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OutletLocale__c.GearsetExternalId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Pricebook2.GearsetExternalId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PricebookEntry.GearsetExternalId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.GearsetExternalId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ProductConsumptionSchedule.GearsetExternalId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1038,11 +1063,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>WorkOrder.ServiceTerritoryId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>WorkOrder.SlaExitDate</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1089,11 +1109,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>WorkOrder.TotalPrice</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>WorkOrder.WorkTypeId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1247,7 +1262,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Asset.ProductCode</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1499,11 +1514,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.SLAViolation__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Case.SourceId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2057,9 +2067,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
+        <readable>false</readable>
         <field>EngagementChannelType.ContactPointType</field>
-        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3048,11 +3058,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>WorkOrderLineItem.ServiceTerritoryId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>WorkOrderLineItem.StartDate</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3084,11 +3089,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>WorkOrderLineItem.UnitPrice</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>WorkOrderLineItem.WorkTypeId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3197,16 +3197,19 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>AAA_Object_That_Won_t_Be_On_Other_Org__c-AAA Object That Won%27t Be On Other Org Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AlternativePaymentMethod-Alternative Payment Method Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>AppointmentInvitation-Appointment Invitation Layout</layout>
+        <layout>AssetStatePeriod-Asset State Period Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>AssetStatePeriod-Asset State Period Layout</layout>
+        <layout>AssociatedLocation-Associated Location Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AuthorizationForm-Authorization Form Layout</layout>
@@ -3230,19 +3233,25 @@
         <layout>Event-Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Favourite_Colour__c-Favourite Colour Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>IndustryPrice__c-Industry Price Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Invoice-Invoice Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Location-Location Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Order-Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OutletLocale__c-Outlet Locale Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Payment-Payment Layout</layout>
@@ -3263,25 +3272,13 @@
         <layout>ServiceContract-Service Contract Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ServiceResource-Service Resource Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ServiceTerritory-Service Territory Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>SocialPersona-Social Persona Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WebCart-Cart Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>WorkOrder-Work Order Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WorkType-Work Type Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ApiAnomalyEventStore-API Anomaly Event Store Layout</layout>
@@ -3297,9 +3294,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>AssetRelationship-Asset Relationship Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AssignedResource-Assigned Resource Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AuthorizationFormDataUse-Authorization Form Data Use Layout</layout>
@@ -3318,21 +3312,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CardPaymentMethod-Card Payment Method Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CartCheckoutSession-Cart Checkout Session Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CartDeliveryGroup-Cart Delivery Group Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CartItem-Cart Item Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CartTax-Cart Tax Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CartValidationOutput-Cart Validation Output Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Case Layout</layout>
@@ -3398,9 +3377,6 @@
         <layout>EmailMessage-Email Message Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>EngagementChannelType-Engagement Channel Type Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>EntityMilestone-Object Milestone Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3426,9 +3402,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Macro-Macro Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OperatingHours-Operating Hours Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
@@ -3476,24 +3449,6 @@
         <layout>ReportAnomalyEventStore-Report Anomaly Event Store Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ResourceAbsence-Resource Absence Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ResourcePreference-Resource Preference Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ReturnOrder-Return Order Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ReturnOrderItemAdjustment-Return Order Item Adjustment Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ReturnOrderItemTax-Return Order Item Tax Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ReturnOrderLineItem-Return Order Line Item Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3503,22 +3458,7 @@
         <layout>ScorecardMetric-Scorecard Metric Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ServiceAppointment-Service Appointment Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ServiceResourceSkill-Service Resource Skill Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ServiceTerritoryMember-Service Territory Member Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>SessionHijackingEventStore-Session Hijacking Event Store Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Shift-Shift Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SkillRequirement-Skill Requirement Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Solution-Solution Layout</layout>
@@ -3527,13 +3467,7 @@
         <layout>ThreatDetectionFeedback-Threat Detection Feedback Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TimeSlot-Time Slot Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>User-User Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>UserAlt-User Profile Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvAccount-User Provisioning Account Layout</layout>
@@ -3543,15 +3477,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WebCartAdjustmentBasis-Cart Adjustment Basis Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WebCartAdjustmentGroup-Cart Adjustment Group Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WebStore-Store Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkOrderLineItem-Work Order Line Item Layout</layout>
@@ -3571,17 +3496,19 @@
     <layoutAssignments>
         <layout>WorkStepTemplate-Work Step Template Layout</layout>
     </layoutAssignments>
-    <layoutAssignments>
-        <layout>WorkTypeGroup-Work Type Group Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
-    </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>IndustryPrice__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>OutletLocale__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>DefaultOn</visibility>

@@ -40,16 +40,16 @@
                 <field>AnnualRevenue</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Apple__c</field>
+                <behavior>Readonly</behavior>
+                <field>Test_field_for_better_error__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Banana__c</field>
+                <field>Apple_Cider_Lover__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>aaa_remove_this_from_prod__c</field>
+                <field>aaaaaaa__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -188,8 +188,8 @@
                 <customLink>Billing</customLink>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns />
+        <layoutColumns />
         <style>CustomLinks</style>
     </layoutSections>
     <platformActionList>
