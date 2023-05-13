@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Geben Sie das Feld im Objekt &quot;Produktoption&quot; an, das den Wert dieses Attributs enthalten wird.</help>
+        <label><!-- Target Field --></label>
+        <name>SBQQ__TargetField__c</name>
+        <picklistValues>
+            <masterLabel>Accent__c</masterLabel>
+            <translation><!-- Accent__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Color__c</masterLabel>
+            <translation><!-- Color__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount (%)</masterLabel>
+            <translation>Rabatt (%)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount (Amt)</masterLabel>
+            <translation>Rabatt (Betrag)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engraving__c</masterLabel>
+            <translation><!-- Engraving__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware_Color__c</masterLabel>
+            <translation><!-- Hardware_Color__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Material__c</masterLabel>
+            <translation><!-- Material__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Measurement_Standard__c</masterLabel>
+            <translation><!-- Measurement_Standard__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outlet_Standard__c</masterLabel>
+            <translation><!-- Outlet_Standard__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Size__c</masterLabel>
+            <translation><!-- Size__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System_Voltage__c</masterLabel>
+            <translation><!-- System_Voltage__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Price</masterLabel>
+            <translation>Stückpreis</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

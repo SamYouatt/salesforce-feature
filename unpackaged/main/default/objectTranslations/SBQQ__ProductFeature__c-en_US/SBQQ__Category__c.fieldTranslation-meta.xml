@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Assign this feature to a category such that multiple features with related options are grouped together. --></help>
+        <label><!-- Category --></label>
+        <name>SBQQ__Category__c</name>
+        <picklistValues>
+            <masterLabel>Essentials</masterLabel>
+            <translation><!-- Essentials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware</masterLabel>
+            <translation><!-- Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internals</masterLabel>
+            <translation><!-- Internals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software</masterLabel>
+            <translation><!-- Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solar Essentials</masterLabel>
+            <translation><!-- Solar Essentials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upsells</masterLabel>
+            <translation><!-- Upsells --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>
