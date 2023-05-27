@@ -19,10 +19,6 @@
                 <behavior>Edit</behavior>
                 <field>Extras__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>looAAA_Object_That_Won_t_Be_On_Other_Org__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
