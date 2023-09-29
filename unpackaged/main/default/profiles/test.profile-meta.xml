@@ -4238,6 +4238,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SBQQ__ImportColumn__c.SBQQ__FieldName__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SBQQ__ImportColumn__c.SBQQ__Key__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4264,6 +4269,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>SBQQ__LineColumn__c.SBQQ__Alignment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__LineColumn__c.SBQQ__BottomMargin__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4304,6 +4314,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>SBQQ__LineColumn__c.SBQQ__HideOnComponents__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__LineColumn__c.SBQQ__LeftMargin__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__LineColumn__c.SBQQ__RightMargin__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4359,6 +4379,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>SBQQ__LineColumn__c.SBQQ__TextColor__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__LineColumn__c.SBQQ__TopMargin__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4459,6 +4484,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>SBQQ__LookupData__c.GearsetExternalId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__LookupData__c.SBQQ__Category__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -5269,6 +5299,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>SBQQ__ProductFeature__c.GearsetExternalId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__ProductFeature__c.SBQQ__Category__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
