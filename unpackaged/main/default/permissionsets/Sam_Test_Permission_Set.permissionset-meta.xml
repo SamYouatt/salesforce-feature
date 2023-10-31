@@ -3,12 +3,17 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>Sam Test Permission Set</label>
     <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Permissions_Testing__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Permissions_Testing__c.magic_checkbox__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
 </PermissionSet>
