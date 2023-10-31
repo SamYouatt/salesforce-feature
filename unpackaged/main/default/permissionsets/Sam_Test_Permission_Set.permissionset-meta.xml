@@ -12,8 +12,8 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Permissions_Testing__c.magic_checkbox__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
 </PermissionSet>
