@@ -704,7 +704,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Permissions_Testing__c.magic_checkbox__c</field>
-        <readable>fales</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
