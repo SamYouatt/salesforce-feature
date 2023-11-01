@@ -16840,6 +16840,10 @@
         <apexClass>SBQQ__Versionable</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>TriggersDisabler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <pageAccesses>
         <apexPage>SBQQ__AccessError</apexPage>
         <enabled>true</enabled>
