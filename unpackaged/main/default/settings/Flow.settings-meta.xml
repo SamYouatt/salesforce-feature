@@ -20,5 +20,5 @@
     <isEnhancedFlowListViewVisible>true</isEnhancedFlowListViewVisible>
     <isFlowApexContextRetired xsi:nil="true"/>
     <isManageFlowRequiredForAutomationCharts>false</isManageFlowRequiredForAutomationCharts>
-    <isTimeResumedInSameRunContext>true</isTimeResumedInSameRunContext>
+    <isTimeResumedInSameRunContext xsi:nil="true"/>
 </FlowSettings>
